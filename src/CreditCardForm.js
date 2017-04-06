@@ -12,13 +12,13 @@ import {
 import Icons from "./Icons";
 import CCInput from "./CCInput";
 import {InjectedProps} from "./connectToState";
-import Icon from 'react-native-vector-icons/FontAwesome';
 
 
 const s = StyleSheet.create({
   container: {
     flexDirection: "column",
     alignItems: "center",
+    justifyContent: 'space-between',
     overflow: "hidden",
     height: 130
   },
