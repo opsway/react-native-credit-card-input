@@ -20,7 +20,7 @@ const s = StyleSheet.create({
     alignItems: "center",
     justifyContent: 'flex-start',
     overflow: "hidden",
-    height: 125
+    height: 115
   },
   icon: {
     width: 48,
