@@ -20,7 +20,7 @@ const s = StyleSheet.create({
     alignItems: "center",
     justifyContent: 'space-between',
     overflow: "hidden",
-    height: 130
+    height: 125
   },
   icon: {
     width: 48,
@@ -127,7 +127,7 @@ export default class CreditCardForm extends Component {
   _cvcIconToShow = () => {
     const {focused, values: {type}} = this.props;
     if (focused === "cvc" && type === "american-express") return "cvc_amex";
-    if (focused === "cvc") return "cvc";
+    return "cvc";
   }
 
   render() {
