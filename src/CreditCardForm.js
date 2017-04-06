@@ -135,7 +135,7 @@ export default class CreditCardForm extends Component {
     const {focused, values: {number}, inputStyle, status: {number: numberStatus}, inputWrapper, containerStyle, width} = this.props;
     return (
       <View style={[s.container, containerStyle, {width}]}>
-        <View style={[width, s.formColumn]}>
+        <View style={[{width}, s.formColumn]}>
           <View style={[s.formRow]}>
             <View style={s.formWrapper}>
               <CCInput {...this._inputProps("number")}
@@ -145,7 +145,7 @@ export default class CreditCardForm extends Component {
             </View>
           </View>
         </View>
-        <View style={[width, s.formColumn]}>
+        <View style={[{width}, s.formColumn]}>
           <View style={[s.formRow]}>
             <View style={[s.formWrapper, {marginRight: 5}]}>
               <CCInput {...this._inputProps("expiry")}
