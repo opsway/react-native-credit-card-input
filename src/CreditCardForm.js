@@ -120,7 +120,6 @@ export default class CreditCardForm extends Component {
 
   _iconToShow = () => {
     const {values: {type}} = this.props;
-    console.log(type);
     if (type) return type;
     return "placeholder";
   }
