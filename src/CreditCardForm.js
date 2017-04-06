@@ -18,7 +18,7 @@ const s = StyleSheet.create({
   container: {
     flexDirection: "column",
     alignItems: "center",
-    justifyContent: 'space-between',
+    justifyContent: 'flex-start',
     overflow: "hidden",
     height: 125
   },
@@ -44,6 +44,7 @@ const s = StyleSheet.create({
     borderWidth: 1,
     borderColor: 'rgba(0,0,0,0.15)',
     flex: 1,
+    marginBottom: 10
   },
   formRow: {
     flexDirection: "row",
